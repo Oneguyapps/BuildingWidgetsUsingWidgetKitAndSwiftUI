@@ -109,7 +109,7 @@ struct CharacterDetail: Hashable, Codable, Identifiable {
         
     }
     
-    private static let appGroup = "group.com.example.apple-samplecode.Emoji.Rangers.Shared"
+    private static let appGroup = "group.com.oneguyapps.Emoji-RangersS9YKFCT3S5"
     
     static func setLastSelectedCharacter(heroName: String) {
         UserDefaults(suiteName: appGroup)?.setValue(heroName, forKey: "hero")
